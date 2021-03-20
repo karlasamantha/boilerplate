@@ -1,7 +1,16 @@
+import * as Style from './styles'
+
 const Main = () => (
-  <main>
-    <h1>NextJS na pratica</h1>
-  </main>
+  <Style.Wrapper>
+    <Style.Title>Boilerplate</Style.Title>
+    <Style.Description>
+      NextJS, Typescript, GraphQL e Styled Components
+    </Style.Description>
+    <Style.Illustration
+      src="/img/illustration.svg"
+      alt="Pessoa desenvolvedora de frente a tela com código"
+    />
+  </Style.Wrapper>
 )
 
 export default Main
