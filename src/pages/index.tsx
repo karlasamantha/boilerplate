@@ -3,7 +3,7 @@ import Head from 'next/head'
 type Props = {
   title: string
 }
-
+const vlas = 'saas'
 export default function Home({ title = 'NextJS na prática' }: Props) {
   return (
     <div>
